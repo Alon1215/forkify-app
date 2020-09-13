@@ -130,6 +130,16 @@ body {
   text-align: center;
   transform: skewY(-3deg); }
 
+.heading-2-welcomePage {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #F59A83;
+  text-transform: uppercase;
+  margin-bottom: 2.5rem;
+  text-align: center;
+  transform: skewY(-3deg); }
+  
+
 .copyright {
   color: #968B87;
   font-size: 1.2rem;

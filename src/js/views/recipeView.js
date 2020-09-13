@@ -130,12 +130,12 @@ export const renderWelcomeMessage = () => {
 
     const markup = `
             <div class="recipe__welcomePage">
-                <h2 class="heading-2">Welcome to forkify!</h2>
+                <h2 class="heading-2-welcomePage">Welcome to forkify!</h2>
                 <p class="recipe__welcomePage-text">Search for over 1,000,000 recipes,</p>
                 <p class="recipe__welcomePage-text">choose number of servings,</p>
                 <p class="recipe__welcomePage-text">and even get your own personalized shopping list!</p>
                 
-                <!--
+                <!--  
                 <p class="recipe__directions-text">
                     Search for over 1,000,000 recipes, choose number of servings, and even get your personalized shopping list!
                 </p>
