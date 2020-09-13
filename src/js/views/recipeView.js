@@ -124,3 +124,35 @@ export const updateServingsIngredients = recipe => {
         el.textContent = formatCount(recipe.ingredients[i].count);
     });
 };
+
+
+export const renderWelcomeMessage = () => {
+
+    const markup = `
+            <div class="recipe__welcomePage">
+                <h2 class="heading-2">Welcome to forkify!</h2>
+                <p class="recipe__welcomePage-text">Search for over 1,000,000 recipes,</p>
+                <p class="recipe__welcomePage-text">choose number of servings,</p>
+                <p class="recipe__welcomePage-text">and even get your own personalized shopping list!</p>
+                
+                <!--
+                <p class="recipe__directions-text">
+                    Search for over 1,000,000 recipes, choose number of servings, and even get your personalized shopping list!
+                </p>
+                -->
+                <p class="recipe__directions-text">
+                    Can't think about desired recipe? check out  
+                    <a class="recipe__queries" href="https://forkify-api.herokuapp.com/phrases.html" class="link">search examples</a>.
+                </p>
+                
+                <a class="btn-small recipe__btn" href="https://github.com/Alon1215/forkify-app/" target="_blank">
+                    <span>Project's repository on Github</span>
+                    <svg class="search__icon">
+                        <use href="img/icons.svg#icon-triangle-right"></use>
+                    </svg>
+
+                </a> 
+            </div>
+    `;
+    elements.recipe.insertAdjacentHTML('afterbegin', markup);
+};

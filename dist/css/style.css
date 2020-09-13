@@ -435,6 +435,23 @@ body {
     color: #968B87; }
   .recipe__by {
     font-weight: 700; }
+  
+  .recipe__welcomePage {
+    padding: 4rem;
+    padding-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .recipe__welcomePage-text {
+    font-size: 1.5rem;
+    text-align: center;
+    width: 90%;
+    margin-bottom: 0.5rem;
+    color: #968B87; }
+    .recipe__queries {
+      text-decoration-line: none;
+      text-decoration-color: rgb(255, 90, 255);
+      font-weight: 500; }
 
 .shopping {
   padding: 3rem 4rem;

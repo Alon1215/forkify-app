@@ -100,6 +100,9 @@ const controlRecipe = async () => {
         } catch (err) {
             alert('Error processing recipe! ');
         }
+    } else {
+        recipeView.clearRecipe();
+        recipeView.renderWelcomeMessage();
     }
 };
 
@@ -179,15 +182,18 @@ const controlLike = () => {
 // Restore liked recipes on page reload
 window.addEventListener('load', () => {
     state.likes = new Likes();
-    
-    // Restore likes
+    state.list = new List();
+
+    // Restore likes & shopping list
     state.likes.readStorage();
-    
+    state.list.readStorage();
+
     // Toggle like menu button
     likesView.toggleLikeMenu(state.likes.getNumLikes());
 
     // Render the existing likes
     state.likes.likes.forEach(like => likesView.renderLike(like));
+    state.list.items.forEach(item => listView.renderItem(item));
 });
 
 
