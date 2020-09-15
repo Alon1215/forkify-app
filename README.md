@@ -1,6 +1,6 @@
 # JavaScript Forkify App
 
-Link to the [website](https://forkify-alon.herokuapp.com/).
+Link to the [website](https://forkify-alon.herokuapp.com/) (*note*: strongly advised to open in a computer Internet browser and not on mobile).   
 
 ## Acknowledgments
 Jonas Schmedtmann, at CodingHeroes.io, for making The ["Complete JavaScript Course 2020"](https://www.udemy.com/course/the-complete-javascript-course/) available on Udemy. 
