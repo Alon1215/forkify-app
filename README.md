@@ -1,6 +1,7 @@
 # JavaScript Forkify App
 
-The website is running [here](https://forkify-alon.herokuapp.com/) ( *note*: strongly advised to open in a computer Internet browser and not on the mobile).   
+Website is running [here!](https://forkify-alon.herokuapp.com/) 
+- *note*: strongly advised to open in a computer Internet browser and not on the mobile.   
 
 ## Acknowledgments
 Jonas Schmedtmann, at CodingHeroes.io, for making The ["Complete JavaScript Course 2020"](https://www.udemy.com/course/the-complete-javascript-course/) available on Udemy. 
